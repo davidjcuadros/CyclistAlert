@@ -1,7 +1,8 @@
+# Cyclist Alert
+## Logo
 <p align="center">
   <img src="resources/images/logoColor.png" alt="Logo CyclistAlert">
 </p>
-# Cyclist Alert
 Este es un proyecto desarrollado para el curso de Fundamentos de Ingeniería de Software de la
 Pontificia Universidad Javeriana
 ## Objetivo:
