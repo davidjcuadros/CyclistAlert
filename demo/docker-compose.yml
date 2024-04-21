@@ -1,0 +1,18 @@
+# definición de los contenedores a usar
+# en formato docker compose
+version: "3.5"
+ 
+# definir los servicios que se deben ejecutar
+services:
+ 
+  # mysql
+  mysql:
+    container_name: mysql-db
+    image: mysql:8.0.3
+    environment:
+      - MYSQL_ROOT_PASSWORD=secret
+      - MYSQL_DATABASE=tareas
+      - MYSQL_USER=usr
+      - MYSQL_PASSWORD=secret
+    ports:
+      - 3306:3306
