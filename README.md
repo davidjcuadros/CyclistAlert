@@ -7,3 +7,7 @@ Construir un aplicación web que  permita a los ciclistas identificar las difere
 - David J. Cuadros
 - Arley Bernal
 - Kevin Garay
+## Logo
+<p align="center">
+  <img src="resources/images/logoColor.png" alt="Logo CyclistAlert">
+</p>
