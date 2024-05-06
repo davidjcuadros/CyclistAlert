@@ -1,4 +1,4 @@
-package com.cyclistalert.demo.modeloDB;
+package com.cyclistalert.modeloDB;
 
 import java.util.List;
 import java.util.ArrayList;

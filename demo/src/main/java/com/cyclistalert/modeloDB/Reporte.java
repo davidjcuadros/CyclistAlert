@@ -1,4 +1,4 @@
-package com.cyclistalert.demo.modeloDB;
+package com.cyclistalert.modeloDB;
 
 import java.util.List;
 import java.util.ArrayList;
@@ -21,6 +21,7 @@ public class Reporte {
     String ubicacion;
     String descripcion;
     List <String> imagenes = new ArrayList<>();
+    Integer likes;
 
     @ManyToOne
     Usuario usuario;
