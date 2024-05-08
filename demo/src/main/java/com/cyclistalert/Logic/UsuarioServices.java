@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import com.cyclistalert.BDAccess.*;
 
 @Service
-@RequestMapping("/user")
+//@RequestMapping("/user")
 public class UsuarioServices {
     @Autowired
     UsuarioRepository usuario;
@@ -22,7 +22,7 @@ public class UsuarioServices {
     ReporteRepository reporte;
 
     //Crecion de usuario:
-    @GetMapping("/creacionUsuario")
+    //@GetMapping("/creacionUsuario")
     public Integer creacionUsuario(@RequestParam Integer id, @RequestParam String nombre, @RequestParam String correo, @RequestParam Integer telefono){
         Usuario usr = new Usuario();
         usr.setId(id);
@@ -41,7 +41,7 @@ public class UsuarioServices {
     }
 
     //Encontrar publicaciones de un usuario
-    @GetMapping("/feed")
+    //@GetMapping("/feed")
     List<Reporte> buscarFeedUsuario(@RequestParam Integer idUsuario){
         return usuario.feedUsuario(idUsuario);
     }

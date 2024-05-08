@@ -38,4 +38,8 @@ public class ReporteServices {
         }
 
     }
+
+    public void cargueImagenes (){
+        
+    }
 }

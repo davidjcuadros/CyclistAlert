@@ -23,6 +23,6 @@ public class Usuario {
     String email;
     Integer telefono;
 
-    @OneToMany(mappedBy = "usuarioID", cascade = CascadeType.ALL)
+    @OneToMany(mappedBy = "reporteID", cascade = CascadeType.ALL)
     List <Reporte> reportes = new ArrayList<>();
 }
